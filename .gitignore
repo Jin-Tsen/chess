@@ -1,0 +1,55 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyCharm specific
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Temporary files
+*.swp
+*~
+.DS_Store
+thumbs.db
+
+# Environment and dependency files
+venv/
+env/
+.env
+
+# Logs
+logs/
+
+# Testing artifacts
+coverage/
+
+# Generated files
+dist/
+build/
+*.egg-info/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# User-specific files
+*.bak
+*.backup
+*.tmp
+
+# Ignore the main config file
+chess_game/config.ini
+
+# Ignore GUI build artifacts
+gui/dist/
+gui/build/
